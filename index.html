@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elenor Developing Team — Full-Stack & AI Engineering</title>
+  <meta name="description" content="Portfolio of the Elenor Developing Team, a full-stack and AI engineering team in Cairo building production web platforms, internal systems, mobile apps and AI agents.">
+  <meta name="theme-color" content="#0b1114">
+  <meta property="og:title" content="Elenor Developing Team — Full-Stack & AI Engineering">
+  <meta property="og:description" content="Production web platforms, internal systems, mobile apps and AI agents.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1114'/%3E%3Cpath d='M44 18H20v28h24M20 32h18' stroke='%2367c8d5' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/Glory-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="importmap">{ "imports": { "three": "./js/vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+  <header class="nav" data-nav>
+    <div class="nav__inner container">
+      <a class="nav__brand" href="#hero" data-scroll>elenor<span>.</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#hero" data-scroll data-nav-link="hero">Home</a></li>
+          <li><a href="#about" data-scroll data-nav-link="about">About</a></li>
+          <li><a href="#work" data-scroll data-nav-link="work">Work <span class="nav__count" data-work-count></span></a></li>
+          <li><a href="#contact" data-scroll data-nav-link="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__canvas" data-hero-canvas aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="eyebrow hero__eyebrow" data-hero-line><span class="dot"></span><span data-site="location"></span></p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span data-hero-line data-site="name"></span></span>
+          <span class="line"><em class="serif" data-hero-line data-site="title"></em></span>
+        </h1>
+        <p class="hero__intro" data-hero-line data-site="intro"></p>
+        <div class="hero__cta" data-hero-line>
+          <a class="btn btn--primary" href="#work" data-scroll>View selected work</a>
+          <a class="btn btn--ghost" href="#contact" data-scroll>Get in touch</a>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#about" data-scroll aria-label="Scroll to About">
+        <span>Scroll</span><i></i>
+      </a>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div>
+          <p class="eyebrow" data-reveal>About</p>
+          <h2 class="section-title" id="about-title" data-reveal>Software that is <em class="serif">considered</em> all the way down.</h2>
+        </div>
+        <div class="about__body">
+          <div data-about-copy></div>
+          <ul class="about__caps" data-about-caps></ul>
+        </div>
+      </div>
+      <div class="container">
+        <dl class="stats" data-stats></dl>
+      </div>
+    </section>
+
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="container work__intro section">
+        <p class="eyebrow" data-reveal>Selected work</p>
+        <h2 class="section-title" id="work-title" data-reveal>Eight products, <em class="serif">built to ship.</em></h2>
+      </div>
+      <div data-projects></div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <p class="eyebrow" data-reveal>Contact</p>
+        <h2 class="contact__title" id="contact-title" data-reveal>Have a project in mind?<br><em class="serif">Let’s talk.</em></h2>
+        <div class="contact__actions" data-reveal>
+          <a class="contact__email" data-email-link></a>
+          <button class="btn btn--ghost btn--sm" type="button" data-copy-email>Copy email</button>
+          <span class="contact__copied" role="status" aria-live="polite" data-copy-status></span>
+        </div>
+        <ul class="contact__links" data-links></ul>
+      </div>
+      <footer class="footer container">
+        <span>© <span data-year></span> <span data-site="name"></span></span>
+        <a href="#hero" data-scroll>Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <dialog class="lightbox" aria-label="Screenshot viewer" data-lightbox>
+    <figure class="lightbox__figure">
+      <img alt="" data-lightbox-img>
+      <figcaption><span data-lightbox-caption></span><span class="lightbox__count" data-lightbox-count></span></figcaption>
+    </figure>
+    <div class="lightbox__grid" data-lightbox-grid hidden>
+      <p class="lightbox__grid-title" data-lightbox-grid-title></p>
+      <ol class="lightbox__grid-list" data-lightbox-grid-list></ol>
+    </div>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Close" data-lightbox-close>✕</button>
+    <button class="lightbox__btn lightbox__all" type="button" aria-label="Show all screenshots" data-lightbox-all>▦</button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Previous image" data-lightbox-prev>←</button>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Next image" data-lightbox-next>→</button>
+  </dialog>
+
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script src="js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="js/vendor/ScrollToPlugin.min.js" defer></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

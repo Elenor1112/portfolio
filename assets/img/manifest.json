@@ -1,0 +1,828 @@
+{
+  "elenor-website/01": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/02": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/03": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/04": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/05": {
+    "w": 1600,
+    "h": 872,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/06": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/07": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/08": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/09": {
+    "w": 1600,
+    "h": 875,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/10": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/11": {
+    "w": 1600,
+    "h": 876,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/12": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/13": {
+    "w": 1600,
+    "h": 863,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/14": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/15": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/16": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/17": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/18": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/19": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/20": {
+    "w": 1600,
+    "h": 875,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/21": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/22": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-website/23": {
+    "w": 685,
+    "h": 829,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/01": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/02": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/02b": {
+    "w": 1600,
+    "h": 878,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/03": {
+    "w": 1600,
+    "h": 880,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/04": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/05": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/06": {
+    "w": 795,
+    "h": 953,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/07": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/08": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/09": {
+    "w": 539,
+    "h": 657,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/10": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/11": {
+    "w": 779,
+    "h": 980,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/12": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/13": {
+    "w": 834,
+    "h": 951,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/14": {
+    "w": 777,
+    "h": 939,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/15": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/16": {
+    "w": 712,
+    "h": 705,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/17": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/18": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/19": {
+    "w": 1600,
+    "h": 876,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/20": {
+    "w": 652,
+    "h": 720,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/21": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/22": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/23": {
+    "w": 1600,
+    "h": 876,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/24": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/25": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/26": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/27": {
+    "w": 606,
+    "h": 702,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/28": {
+    "w": 1600,
+    "h": 877,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/29": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/30": {
+    "w": 592,
+    "h": 643,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/31": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/32": {
+    "w": 634,
+    "h": 511,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/33": {
+    "w": 1600,
+    "h": 872,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/34": {
+    "w": 625,
+    "h": 815,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/35": {
+    "w": 1600,
+    "h": 872,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/36": {
+    "w": 646,
+    "h": 452,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/37": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/38": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/39": {
+    "w": 574,
+    "h": 514,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/40": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/41": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "elenor-os/42": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/01": {
+    "w": 1600,
+    "h": 865,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/02": {
+    "w": 1600,
+    "h": 865,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/03": {
+    "w": 1600,
+    "h": 861,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/04": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/05": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/06": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/07": {
+    "w": 1600,
+    "h": 862,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/08": {
+    "w": 1600,
+    "h": 865,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/09": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/10": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/11": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/12": {
+    "w": 1600,
+    "h": 860,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/13": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/14": {
+    "w": 1600,
+    "h": 856,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/15": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/16": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/17": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/18": {
+    "w": 1600,
+    "h": 870,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/19": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/20": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/21": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/22": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/23": {
+    "w": 1600,
+    "h": 853,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/24": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/25": {
+    "w": 1600,
+    "h": 867,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/26": {
+    "w": 1600,
+    "h": 866,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/27": {
+    "w": 1600,
+    "h": 863,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "gts-erp/28": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/01": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/02": {
+    "w": 1600,
+    "h": 873,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/03": {
+    "w": 1600,
+    "h": 868,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/04": {
+    "w": 1600,
+    "h": 535,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/05": {
+    "w": 1600,
+    "h": 824,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/06": {
+    "w": 1600,
+    "h": 814,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/07": {
+    "w": 1600,
+    "h": 817,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "geo-audit/08": {
+    "w": 1600,
+    "h": 826,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "adlens/01": {
+    "w": 940,
+    "h": 770,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/01": {
+    "w": 600,
+    "h": 1326,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "herts-quest/02": {
+    "w": 600,
+    "h": 1326,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "herts-quest/03": {
+    "w": 600,
+    "h": 1326,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "herts-quest/04": {
+    "w": 600,
+    "h": 1326,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "herts-quest/05": {
+    "w": 600,
+    "h": 1326,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "herts-quest/06": {
+    "w": 1600,
+    "h": 869,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/07": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/08": {
+    "w": 1600,
+    "h": 876,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/09": {
+    "w": 1600,
+    "h": 871,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/10": {
+    "w": 1600,
+    "h": 874,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "herts-quest/11": {
+    "w": 1600,
+    "h": 862,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "church-app/dashboard": {
+    "w": 720,
+    "h": 1591,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "church-app/meetings": {
+    "w": 720,
+    "h": 1591,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "church-app/profile": {
+    "w": 720,
+    "h": 1591,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "church-app/attendance": {
+    "w": 720,
+    "h": 1591,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  }
+}
