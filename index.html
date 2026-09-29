@@ -22,7 +22,12 @@
 
   <header class="nav" data-nav>
     <div class="nav__inner container">
-      <a class="nav__brand" href="#hero" data-scroll>elenor<span>.</span></a>
+      <a class="nav__brand" href="#hero" data-scroll aria-label="Elenor">
+        <picture>
+          <source srcset="assets/img/elenor-logo.webp" type="image/webp">
+          <img src="assets/img/elenor-logo.png" alt="Elenor" width="191" height="64">
+        </picture>
+      </a>
       <nav aria-label="Primary">
         <ul class="nav__links" id="nav-links">
           <li><a href="#hero" data-scroll data-nav-link="hero">Home</a></li>
