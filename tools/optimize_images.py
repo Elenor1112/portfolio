@@ -32,6 +32,18 @@ MANIFEST = {
         ("profile", "WhatsApp Image 2026-09-27 at 1.54.01 PM (1).jpeg", "phone"),
         ("attendance", "WhatsApp Image 2026-09-27 at 1.54.01 PM.jpeg", "phone"),
     ]),
+    "off-script": (os.path.join("assets", "Off Script"), [
+        ("01", "1.png", "desktop"),
+        ("02", "2.png", "desktop"),
+        ("03", "3.png", "desktop"),
+        ("04", "4.png", "desktop"),
+        ("05", "5.png", "desktop"),
+        ("06", "6.png", "desktop"),
+        ("07", "7.png", "desktop"),
+        ("08", "8.png", "desktop"),
+        ("09", "9.png", "desktop"),
+        ("10", "10.png", "desktop"),
+    ]),
 }
 
 

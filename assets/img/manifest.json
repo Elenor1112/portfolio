@@ -824,5 +824,75 @@
     "kind": "phone",
     "large": 720,
     "small": 360
+  },
+  "off-script/01": {
+    "w": 388,
+    "h": 478,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/02": {
+    "w": 287,
+    "h": 451,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/03": {
+    "w": 318,
+    "h": 461,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/04": {
+    "w": 278,
+    "h": 455,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/05": {
+    "w": 237,
+    "h": 458,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/06": {
+    "w": 290,
+    "h": 395,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/07": {
+    "w": 363,
+    "h": 382,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/08": {
+    "w": 343,
+    "h": 389,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/09": {
+    "w": 242,
+    "h": 382,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "off-script/10": {
+    "w": 282,
+    "h": 377,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
   }
 }
