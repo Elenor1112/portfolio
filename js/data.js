@@ -93,7 +93,7 @@ export const projects = [
       'Multi-level leave, permission and resignation approval chains',
       'Weighted Employee-of-the-Month engine, audit log and ⌘K command palette',
     ],
-    highlights: ['Granular RBAC', 'Approval workflows', 'Sales pipeline & CRM', 'Performance analytics', 'Audit log', '⌘K command palette', 'Light / dark mode'],
+    highlights: ['Tasks Module', 'Approval workflows', 'Sales pipeline & CRM', 'Performance analytics', 'Audit log', '⌘K command palette','HR Module','Light / dark mode'],
     stack: ['Next.js 15', 'TypeScript', 'PostgreSQL', 'Prisma', 'JWT + refresh rotation', 'TanStack Query', 'Framer Motion', 'Recharts'],
     layout: 'desktop',
     featured: ['01', '02b', '03', '04', '21', '38', '40', '42'],
@@ -144,8 +144,8 @@ export const projects = [
     ],
   },
   {
-    id: 'gts-erp',
-    title: 'GTS Business OS',
+    id: 'ERP-erp',
+    title: 'ERP Business OS',
     category: 'Storage · HR · Accounting ERP',
     accent: '#6b9bff',
     summary:
@@ -156,7 +156,7 @@ export const projects = [
       'Geofenced attendance re-verified on the server against the site location',
       '235 tests against the real database and browser, desktop and mobile',
     ],
-    highlights: ['ETA e-invoicing', '14% VAT & withholding tax', 'Ledger-based inventory', 'Geofenced attendance', 'Permission matrix', 'Arabic / RTL', '235 automated tests'],
+    highlights: ['Accounting Module', 'Warehouse Module', 'Geofenced attendance', 'HR Module', 'Arabic / RTL', '235 automated tests'],
     stack: ['Next.js 15', 'TypeScript', 'Prisma 7', 'Neon Postgres', 'argon2id', 'Playwright', 'Arabic / RTL'],
     layout: 'desktop',
     featured: ['01', '03', '05', '11', '13', '18', '22', '25'],
