@@ -20,6 +20,7 @@ export const site = {
   // Add more entries (GitHub, LinkedIn, …) and they appear in the Contact section.
   links: [
     { label: 'Email', href: 'mailto:info@elenor-marketing.com', text: 'info@elenor-marketing.com' },
+    { label: 'WhatsApp +20 12 01137272', href: 'https://wa.me/201201137272' },
   ],
   email: 'info@elenor-marketing.com',
 };
