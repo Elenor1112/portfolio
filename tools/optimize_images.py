@@ -1,12 +1,14 @@
 """Build the optimized WebP screenshots in assets/img from the original project folders.
 
-Run from the portfolio root:  python tools/optimize_images.py
-Requires Pillow (pip install pillow). Re-running overwrites the output.
+Run from the portfolio root:  python tools/optimize_images.py [slug ...]
+With slugs, only those projects are rebuilt; projects whose source folder is missing are skipped.
+Requires Pillow (pip install pillow). Re-running overwrites the output of the projects it builds.
 """
 import json
 import os
 import re
 import shutil
+import sys
 from PIL import Image, ImageOps
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,6 +23,11 @@ NUMBERED = {
     "geo-audit": "GEO Agent",
     "adlens": "AdLens",
     "herts-quest": "Herts Quest (Game)",
+    # Screenshots taken from the running apps, kept out of git (see .gitignore)
+    "ai-caller": os.path.join("_shots", "ai-caller"),
+    "meta-bot": os.path.join("_shots", "meta-bot"),
+    "nfc-card": os.path.join("_shots", "nfc-card"),
+    "mutism": os.path.join("_shots", "mutism"),
 }
 
 # slug -> (source folder, [(output name, source file, kind)])
@@ -69,12 +76,15 @@ def save(im, width, path):
     return im.size
 
 
-def main():
-    manifest = {}
+def main(only):
+    manifest_path = os.path.join(OUT, "manifest.json")
+    manifest = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
     total = 0
-    sources = {slug: (folder, numbered(folder)) for slug, folder in NUMBERED.items()}
-    sources.update(MANIFEST)
+    wanted = lambda slug, folder: (not only or slug in only) and os.path.isdir(os.path.join(ROOT, folder))
+    sources = {slug: (folder, numbered(folder)) for slug, folder in NUMBERED.items() if wanted(slug, folder)}
+    sources.update({slug: v for slug, v in MANIFEST.items() if wanted(slug, v[0])})
     for slug, (folder, items) in sources.items():
+        manifest = {k: v for k, v in manifest.items() if not k.startswith(slug + "/")}
         shutil.rmtree(os.path.join(OUT, slug), ignore_errors=True)  # drop shots that no longer exist
         os.makedirs(os.path.join(OUT, slug))
         for name, src, kind in items:
@@ -87,14 +97,15 @@ def main():
                 total += os.path.getsize(os.path.join(OUT, slug, f"{name}-{size}.webp"))
 
     # Social preview image from the Elenor Website hero shot
-    og = ImageOps.exif_transpose(Image.open(os.path.join(ROOT, "Elenor Website", "1.png"))).convert("RGB")
-    og = ImageOps.fit(og, (1200, 630), Image.LANCZOS)
-    og.save(os.path.join(OUT, "og.jpg"), "JPEG", quality=80, optimize=True)
+    if "elenor-website" in sources:
+        og = ImageOps.exif_transpose(Image.open(os.path.join(ROOT, "Elenor Website", "1.png"))).convert("RGB")
+        og = ImageOps.fit(og, (1200, 630), Image.LANCZOS)
+        og.save(os.path.join(OUT, "og.jpg"), "JPEG", quality=80, optimize=True)
 
-    with open(os.path.join(OUT, "manifest.json"), "w") as f:
+    with open(manifest_path, "w") as f:
         json.dump(manifest, f, indent=2)
-    print(f"{len(manifest)} images, {total / 1024:.0f} KB total WebP")
+    print(f"built {', '.join(sources) or 'nothing'}: {total / 1024:.0f} KB WebP; manifest has {len(manifest)} images")
 
 
 if __name__ == "__main__":
-    main()
+    main(set(sys.argv[1:]))

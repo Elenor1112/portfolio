@@ -894,5 +894,236 @@
     "kind": "desktop",
     "large": 1600,
     "small": 800
+  },
+  "ai-caller/01": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/02": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/03": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/04": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/06": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/07": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/08": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/09": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/10": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/11": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "ai-caller/13": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/01": {
+    "w": 1520,
+    "h": 764,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/02": {
+    "w": 1520,
+    "h": 1368,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/03": {
+    "w": 1520,
+    "h": 902,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/04": {
+    "w": 1520,
+    "h": 1160,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/05": {
+    "w": 1520,
+    "h": 902,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/06": {
+    "w": 1520,
+    "h": 1768,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "meta-bot/07": {
+    "w": 1520,
+    "h": 1156,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "nfc-card/01": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "nfc-card/02": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "nfc-card/03": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/01": {
+    "w": 720,
+    "h": 1561,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/02": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/03": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/04": {
+    "w": 600,
+    "h": 1301,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/05": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/06": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/07": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/08": {
+    "w": 1600,
+    "h": 1000,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
+  },
+  "mutism/09": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/10": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/11": {
+    "w": 720,
+    "h": 1558,
+    "kind": "phone",
+    "large": 720,
+    "small": 360
+  },
+  "mutism/12": {
+    "w": 1300,
+    "h": 1425,
+    "kind": "desktop",
+    "large": 1600,
+    "small": 800
   }
 }
